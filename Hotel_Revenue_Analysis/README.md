@@ -1,18 +1,19 @@
-# Project Description
+# Hotel Revenue Dashboard
+## Project Description
 This project involves creating a hotel revenue dashboard in Tableau to visualize revenue, booking behavior, and North Star metrics by hotel type (City Hotel and Resort Hotel) and country, covering the period from January 2018 to September 2020. The objective is to uncover trends, identify patterns, and answer business-relevant questions that can inform strategic decisions for optimizing revenue and enhancing operational efficiency. [Click here to view the dashboard](https://public.tableau.com/views/HotelRevenue_17240350513880/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-# Tools Used
+## Tools Used
 * SQL Server: Used to build a database, clean the data, and perform initial analysis.
 * Tableau Public: Utilized to visualize data, enabling the discovery of trends and patterns.
 
-# North Star Metrics
+## North Star Metrics
 * Total Revenue
 * Average ADR (Average Daily Rate)
 * Average Discount
 * Total Reservations
 * Total Nights
 
-# Key Questions
+## Key Questions
 * Is hotel revenue growing year by year?
 * What factors contribute to the peaks and valleys in revenue throughout the year?
 * Are there any seasonal patterns in booking volume that impact total revenue?
@@ -20,7 +21,7 @@ This project involves creating a hotel revenue dashboard in Tableau to visualize
 * How do City Hotels differ from Resort Hotels?
 * Which hotel type outperforms the other, and why?
 
-# Findings Summary
+#@ Findings Summary
 Revenue Growth: In 2018, hotel revenue was $3.7 million. There was a sharp increase in 2019, with revenue rising by $8.8 million to reach a total of $12.1 million, marking the highest peak. However, in 2020, revenue declined substantially compared to 2019, yet remained higher than in 2018, with earnings at $7.5 million.
 
 Revenue Behavior: Peaks in revenue are likely driven by seasonal demand, holidays, and events that increase bookings. Revenue is highest during the summer season and holidays like New Year's and Christmas, while valleys are observed during off-peak seasons such as fall and winter.
