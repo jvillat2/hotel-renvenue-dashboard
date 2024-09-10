@@ -1,21 +1,28 @@
 # Project Description
-This project involved conducting an in-depth analysis of hotel booking data using Power BI. SQL Server was used to build a database, clean the data, and perform initial analysis. The cleaned data was then utilized to create a Power BI dashboard to discover trends and answer business-relevant questions. The main goals were to analyze trends in hotel revenue over a three-year period, assess the utilization of parking spaces, and provide insights into whether the hotel should consider expanding its parking lot.
+This project involves creating a hotel revenue dashboard in Tableau to visualize revenue, booking behavior, and North Star metrics by hotel type (City Hotel and Resort Hotel) and country, covering the period from January 2018 to September 2020. The objective is to uncover trends, identify patterns, and answer business-relevant questions that can inform strategic decisions for optimizing revenue and enhancing operational efficiency. [Click here to view the dashboard](https://public.tableau.com/views/HotelRevenue_17240350513880/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
- Key Questions:
+# Tools Used
+* SQL Server: Used to build a database, clean the data, and perform initial analysis.
+* Tableau Public: Utilized to visualize data, enabling the discovery of trends and patterns.
 
-* Is our hotel revenue growing year by year?
-* Should we increase the size of our parking lot?
-* What trends can be identified in the data?
+# North Star Metrics
+* Total Revenue
+* Average ADR (Average Daily Rate)
+* Average Discount
+* Total Reservations
+* Total Nights
 
-Data Overview:
-The analysis spans from January 2018 to September 2020, covering two types of hotels: City Hotels and Resort Hotels. Key metrics include revenue, average daily rate (ADR), total nights booked, discount rates, and the number of required parking spaces.
+# Key Questions
+* Is hotel revenue growing year by year?
+* What factors contribute to the peaks and valleys in revenue throughout the year?
+* Are there any seasonal patterns in booking volume that impact total revenue?
+* How do booking trends differ between City Hotels and Resort Hotels?
+* How do City Hotels differ from Resort Hotels?
+* Which hotel type outperforms the other, and why?
 
-Findings Summary:
+# Findings Summary
+Revenue Growth: In 2018, hotel revenue was $3.7 million. There was a sharp increase in 2019, with revenue rising by $8.8 million to reach a total of $12.1 million, marking the highest peak. However, in 2020, revenue declined substantially compared to 2019, yet remained higher than in 2018, with earnings at $7.5 million.
 
-* Revenue Growth: The total revenue over the period amounts to $29.12 million, with significant growth observed in 2019. However, there was a decline in 2020, potentially due to external factors such as market changes or global events.
-* Parking Lot Utilization: Across the three years, a total of 8,692 parking spaces were required, with an overall parking utilization rate of 8.63%. The data suggests a slight decline in the parking percentage over time.
-* Revenue by Hotel Type: City Hotels and Resort Hotels contributed almost equally to the revenue, with Resort Hotels slightly leading at 51.68%.
+Revenue Behavior: Peaks in revenue are likely driven by seasonal demand, holidays, and events that increase bookings. Revenue is highest during the summer season and holidays like New Year's and Christmas, while valleys are observed during off-peak seasons such as fall and winter.
 
-Conclusion:
-
-The analysis reveals fluctuating revenue trends, with a peak in 2019 followed by a decline. The current parking utilization suggests that expanding the parking lot may not be necessary unless future trends indicate otherwise.
+Hotel Type Differences: The analysis reveals significant differences between resort hotels and city hotels in terms of revenue and reservation patterns. City hotels outperformed resort hotels, generating $12.14 million in total revenue compared to $10.8 million for resort hotels. This is despite city hotels having fewer total nights booked (156,679) compared to resort hotels (177,373). The higher performance of city hotels is likely due to a higher average daily rate (ADR) of $102.59 compared to $93.67 at resort hotels, and a lower average discount of 26.88% compared to 32.50% at resort hotels. Additionally, city hotels saw more bookings, with 92,743 total reservations compared to 48,842 at resort hotels.
